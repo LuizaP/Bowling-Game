@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="05e104-507894" name="BowlingGameTest" skipped="0" tests="4" time="0.077" timestamp="2014-10-07T23:15:54">
+<testsuite errors="0" failures="0" hostname="05e104-507894" name="BowlingGameTest" skipped="0" tests="6" time="0.073" timestamp="2014-11-11T22:13:19">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
@@ -12,7 +12,7 @@
     <property name="ant.core.lib" value="/usr/local/netbeans-8.0/extide/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="/home/todos/alunos/cm/a1243276/BowlingGame" />
+    <property name="user.dir" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="java.vm.version" value="25.20-b23" />
     <property name="libs.DataBindingME.classpath" value="/usr/local/netbeans-8.0/mobility/modules/ext/netbeans_databindingme.jar" />
@@ -24,7 +24,7 @@
     <property name="netbeans.running.environment" value="gnome" />
     <property name="libs.javaee-web-api-6.0.classpath" value="/usr/local/netbeans-8.0/enterprise/modules/ext/javaee-web-api-6.0.jar" />
     <property name="libs.DataBindingME-PIM.maven-pom" value="" />
-    <property name="ant.file.BowlingGame" value="/home/todos/alunos/cm/a1243276/BowlingGame/build.xml" />
+    <property name="ant.file.BowlingGame" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build.xml" />
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="jdk.home" value="/usr/lib/jvm/java-8-oracle" />
     <property name="libs.javac-api.src" value="" />
@@ -59,7 +59,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BowlingGameTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/todos/alunos/cm/a1243276/BowlingGame/build/test/results/TEST-BowlingGameTest.xml crashfile=/home/todos/alunos/cm/a1243276/BowlingGame/build/junitvmwatcher8609823695288108770.properties propsfile=/home/todos/alunos/cm/a1243276/BowlingGame/build/junit9118967917213444512.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BowlingGameTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/test/results/TEST-BowlingGameTest.xml crashfile=/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/junitvmwatcher2539732635385673264.properties propsfile=/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/junit1577988833108672604.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -123,7 +123,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="32" />
-    <property name="basedir" value="/home/todos/alunos/cm/a1243276/BowlingGame" />
+    <property name="basedir" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="/usr/local/netbeans-8.0/enterprise/modules/ext/javaee-web-api-7.0.jar" />
@@ -167,7 +167,7 @@
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="/home/todos/alunos/cm/a1243276/BowlingGame/build/empty" />
+    <property name="empty.dir" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -209,7 +209,7 @@
     <property name="libs.jsp-compiler.classpath" value="/usr/local/netbeans-8.0/enterprise/ant/extra/jspcompile.jar" />
     <property name="javac.processorpath" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="/home/todos/alunos/cm/a1243276/BowlingGame/build.xml" />
+    <property name="ant.file" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="" />
     <property name="libs.jsf12.classpath" value="/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/commons-beanutils.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/commons-collections.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/commons-digester.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/commons-logging.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/jsf-api.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-1_2/jsf-impl.jar" />
@@ -243,7 +243,7 @@
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="BowlingGame" />
-    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE0058383db-0bc2-4e1a-b2fb-df6871cf00f2_29ce8066-be44-4574-981c-db9e340c99ab" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE0f7306589-66a7-42c7-b0c2-f7e93cb180f7_1c45537a-99bd-4b8d-9460-4a37d04c9791" />
     <property name="netbeans.default_userdir_root" value="/home/todos/alunos/cm/a1243276/.netbeans" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="sun.cpu.isalist" value="" />
@@ -269,7 +269,7 @@
     <property name="run.jvmargs.ide" value="" />
     <property name="javadoc.version" value="false" />
     <property name="libs.MySQLDriver.javadoc" value="" />
-    <property name="ant.file.BowlingGame-impl" value="/home/todos/alunos/cm/a1243276/BowlingGame/nbproject/build-impl.xml" />
+    <property name="ant.file.BowlingGame-impl" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/nbproject/build-impl.xml" />
     <property name="org.openide.version" value="deprecated" />
     <property name="platform.java" value="/usr/lib/jvm/java-8-oracle/jre/bin/java" />
     <property name="source.encoding" value="UTF-8" />
@@ -285,7 +285,7 @@
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/home/todos/alunos/cm/a1243276/BowlingGame" />
+    <property name="work.dir" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game" />
     <property name="libs.jaxb.classpath" value="/usr/local/netbeans-8.0/ide/modules/ext/jaxb/jaxb-impl.jar:/usr/local/netbeans-8.0/ide/modules/ext/jaxb/jaxb-xjc.jar:/usr/local/netbeans-8.0/ide/modules/ext/jaxb/jaxb1-impl.jar:/usr/local/netbeans-8.0/ide/modules/ext/jaxb/activation.jar:/usr/local/netbeans-8.0/ide/modules/ext/jaxb/api/jaxb-api.jar:/usr/local/netbeans-8.0/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
@@ -304,7 +304,7 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="/home/todos/alunos/cm/a1243276/BowlingGame/build/built-jar.properties" />
+    <property name="built-jar.properties" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="libs.jpa2-persistence.src" value="" />
@@ -347,7 +347,7 @@
     <property name="libs.jpa2-persistence.javadoc" value="" />
     <property name="libs.DataBindingME.javadoc" value="/usr/local/netbeans-8.0/mobility/modules/docs/netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="/home/todos/alunos/cm/a1243276/BowlingGame/build/classes:/usr/local/netbeans-8.0/platform/modules/ext/junit-4.10.jar:/home/todos/alunos/cm/a1243276/BowlingGame/build/test/classes:/usr/local/netbeans-8.0/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/classes:/usr/local/netbeans-8.0/platform/modules/ext/junit-4.10.jar:/home/todos/alunos/cm/a1243276/Área de Trabalho/Bowling-Game/build/test/classes:/usr/local/netbeans-8.0/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant-junit4.jar" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="/usr/local/netbeans-8.0/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar" />
@@ -395,9 +395,11 @@
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
   </properties>
-  <testcase classname="BowlingGameTest" name="round1" time="0.005" />
+  <testcase classname="BowlingGameTest" name="roud5" time="0.002" />
+  <testcase classname="BowlingGameTest" name="round1" time="0.0" />
   <testcase classname="BowlingGameTest" name="round2" time="0.0" />
-  <testcase classname="BowlingGameTest" name="round3" time="0.003" />
+  <testcase classname="BowlingGameTest" name="round3" time="0.0" />
+  <testcase classname="BowlingGameTest" name="round4" time="0.0" />
   <testcase classname="BowlingGameTest" name="zero" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

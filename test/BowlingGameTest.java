@@ -49,6 +49,7 @@ public class BowlingGameTest {
         assertEquals(0, bowlinggame.getScore());
     
     }
+    // Testando uma rodada normal
     @Test
     public void round1() {
         BowlingGame bowlinggame = new BowlingGame();
@@ -56,10 +57,10 @@ public class BowlingGameTest {
         bowlinggame.roll(5);
         bowlinggame.roll(3);
         assertEquals(8, bowlinggame.getScore());
-        
-        
+              
         
     }
+    // Testando um jogo só com zeros
     @Test
     public void round2() {
         BowlingGame bowlinggame = new BowlingGame();
@@ -68,6 +69,7 @@ public class BowlingGameTest {
         }
         assertEquals(0, bowlinggame.getScore());
     }
+    // Testando uma jogada que começa com spare e o resto das jogada é um
     @Test
     public void round3(){
         BowlingGame bowlinggame = new BowlingGame();
@@ -79,4 +81,31 @@ public class BowlingGameTest {
         assertEquals(28, bowlinggame.getScore());
 
     }
+    // Testando um strike e as outras jogadas são é um
+    @Test
+    public void round4(){
+        BowlingGame bowlinggame = new BowlingGame();
+        bowlinggame.roll(10);
+        for (int i = 2; i < 20; i++) {
+            bowlinggame.roll(1);
+            
+        }
+        assertEquals(30, bowlinggame.getScore());
+    
+        
+    }
+    // Testando um strike, jogadas um, e a ultima jogada é outro strike, acionando a jogada 21.
+    @Test
+    public void roud5(){
+        BowlingGame bowlinggame = new BowlingGame();
+        bowlinggame.roll(10);
+        for (int i = 2; i < 18; i++) {
+            bowlinggame.roll(1);
+            
+        }
+        bowlinggame.roll(10);
+        bowlinggame.roll(1);
+        assertEquals(39, bowlinggame.getScore());
+    }
+    
 }
