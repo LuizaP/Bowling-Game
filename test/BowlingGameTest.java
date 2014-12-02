@@ -81,7 +81,7 @@ public class BowlingGameTest {
         assertEquals(28, bowlinggame.getScore());
 
     }
-    // Testando um strike e as outras jogadas são é um
+    // Testando um strike e as outras jogadas é um
     @Test
     public void round4(){
         BowlingGame bowlinggame = new BowlingGame();
