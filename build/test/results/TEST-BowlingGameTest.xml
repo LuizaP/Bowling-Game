@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="04e104-507871" name="BowlingGameTest" skipped="0" tests="6" time="0.075" timestamp="2014-12-02T21:05:37">
+<testsuite errors="0" failures="0" hostname="06e104-507903" name="BowlingGameTest" skipped="0" tests="6" time="0.08" timestamp="2014-12-09T21:03:41">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
@@ -59,7 +59,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BowlingGameTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/todos/alunos/cm/a1243276/Bowling-Game/build/test/results/TEST-BowlingGameTest.xml crashfile=/home/todos/alunos/cm/a1243276/Bowling-Game/build/junitvmwatcher8678629679287930434.properties propsfile=/home/todos/alunos/cm/a1243276/Bowling-Game/build/junit426468036679946195.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BowlingGameTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/todos/alunos/cm/a1243276/Bowling-Game/build/test/results/TEST-BowlingGameTest.xml crashfile=/home/todos/alunos/cm/a1243276/Bowling-Game/build/junitvmwatcher6045594448926212680.properties propsfile=/home/todos/alunos/cm/a1243276/Bowling-Game/build/junit1297358540623478097.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -150,7 +150,7 @@
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
     <property name="libs.DataBindingME-SVG.classpath" value="/usr/local/netbeans-8.0/mobility/modules/ext/netbeans_databindingme_svg.jar" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|04e104-507871" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|06e104-507903" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
@@ -186,7 +186,7 @@
     <property name="libs.restlib.classpath" value="/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/guava-14.0.1.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/javax.annotation-api-1.2.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/jaxb-api-2.2.7.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/org.osgi.core-4.2.0.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/osgi-resource-locator-1.0.1.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/ext/persistence-api-1.0.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/jersey-client.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/jersey-common.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/jersey-container-servlet.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/jersey-container-servlet-core.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jersey2/jersey-server.jar:/usr/local/netbeans-8.0/java/modules/ext/eclipselink/eclipselink.jar" />
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="libs.hibernate4-persistence.javadoc" value="" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|04e104-507871" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|06e104-507903" />
     <property name="ant.file.type.BowlingGame-impl" value="file" />
     <property name="libs.junit_4.javadoc" value="/usr/local/netbeans-8.0/java/docs/junit-4.10-javadoc.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -241,9 +241,10 @@
     <property name="libs.DataBindingME-SVG.src" value="/usr/local/netbeans-8.0/mobility/sources/netbeans_databindingme_svg-src.zip" />
     <property name="dist.jar" value="dist/BowlingGame.jar" />
     <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="netbeans.automatic.build" value="true" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="BowlingGame" />
-    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE0e0a1678d-8f2e-4191-a652-a77857313425_1c84a055-fa93-485b-afb9-28f2179ec33a" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE0fe966a6e-15d2-4240-a651-a608cc2b8774_9d268bc0-03cd-4800-8def-07ac17285e0a" />
     <property name="netbeans.default_userdir_root" value="/home/todos/alunos/cm/a1243276/.netbeans" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="sun.cpu.isalist" value="" />
@@ -320,8 +321,8 @@
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
     <property name="testng.debug.mode" value="" />
-    <property name="libs.groovy-all.classpath" value="/usr/local/netbeans-8.0/groovy/modules/ext/groovy-all.jar" />
     <property name="javac.fork" value="false" />
+    <property name="libs.groovy-all.classpath" value="/usr/local/netbeans-8.0/groovy/modules/ext/groovy-all.jar" />
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_socket" />
@@ -336,8 +337,8 @@
     <property name="nb.junit.single" value="false" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="netbeans.dirs" value="/usr/local/netbeans-8.0/nb:/usr/local/netbeans-8.0/ergonomics:/usr/local/netbeans-8.0/ide:/usr/local/netbeans-8.0/extide:/usr/local/netbeans-8.0/java:/usr/local/netbeans-8.0/apisupport:/usr/local/netbeans-8.0/webcommon:/usr/local/netbeans-8.0/websvccommon:/usr/local/netbeans-8.0/enterprise:/usr/local/netbeans-8.0/mobility:/usr/local/netbeans-8.0/profiler:/usr/local/netbeans-8.0/python:/usr/local/netbeans-8.0/php:/usr/local/netbeans-8.0/identity:/usr/local/netbeans-8.0/harness:/usr/local/netbeans-8.0/cnd:/usr/local/netbeans-8.0/dlight:/usr/local/netbeans-8.0/groovy:/usr/local/netbeans-8.0/extra:/usr/local/netbeans-8.0/javacard:/usr/local/netbeans-8.0/javafx:" />
-    <property name="libs.jsf20.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.jstl.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
+    <property name="libs.jsf20.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
     <property name="libs.metro.src" value="" />
     <property name="libs.absolutelayout.classpath" value="/usr/local/netbeans-8.0/java/modules/ext/AbsoluteLayout.jar" />
@@ -364,8 +365,8 @@
     <property name="nb.internal.action.name" value="test" />
     <property name="libs.javaee-api-7.0.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.eclipselink.classpath" value="/usr/local/netbeans-8.0/java/modules/ext/eclipselink/eclipselink.jar:/usr/local/netbeans-8.0/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/usr/local/netbeans-8.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.1.v20130918-f2b9fc5.jar" />
-    <property name="libs.beans-binding.javadoc" value="/usr/local/netbeans-8.0/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="/usr/local/netbeans-8.0/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.CopyLibs.classpath" value="/usr/local/netbeans-8.0/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="libs.spring-framework300.classpath" value="/usr/local/netbeans-8.0/ide/modules/org-apache-commons-logging.jar:/usr/local/netbeans-8.0/java/modules/ext/cglib-2.2.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-aop-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-aspects-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-beans-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-build-src-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-context-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-context-support-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-core-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-expression-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-framework-bom-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-instrument-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-instrument-tomcat-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-jdbc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-jms-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-orm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-oxm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-struts-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-test-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-tx-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-web-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0/java/modules/ext/spring-3.0/spring-webmvc-portlet-3.2.7.RELEASE.jar" />
@@ -386,8 +387,8 @@
     <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="/usr/local/netbeans-8.0/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/servlet3.1-jsp2.3-api.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/glassfish-jspparser-4.0.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jsf-2_2/javax.faces.jar:/usr/local/netbeans-8.0/enterprise/modules/ext/jstl-api.jar:/usr/local/netbeans-8.0/extide/ant/lib/ant-launcher.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
-    <property name="file.encoding" value="UTF-8" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="file.encoding" value="UTF-8" />
     <property name="jdkBug6558476" value="false" />
     <property name="javadoc.nonavbar" value="false" />
     <property name="libs.spring-webmvc4.0.classpath" value="/usr/local/netbeans-8.0/java/modules/ext/spring-4/spring-webmvc-4.0.1.RELEASE.jar" />
@@ -395,7 +396,7 @@
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/usr/local/netbeans-8.0/enterprise/docs/javaee-doc-api.jar" />
   </properties>
-  <testcase classname="BowlingGameTest" name="round1" time="0.003" />
+  <testcase classname="BowlingGameTest" name="round1" time="0.002" />
   <testcase classname="BowlingGameTest" name="round2" time="0.0" />
   <testcase classname="BowlingGameTest" name="round3" time="0.0" />
   <testcase classname="BowlingGameTest" name="round4" time="0.0" />

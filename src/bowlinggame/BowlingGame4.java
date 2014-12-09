@@ -1,7 +1,6 @@
-
 package bowlinggame;
 
-public class BowlingGame {
+public class BowlingGame4 {
 
    
     public static void main(String[] args) {
