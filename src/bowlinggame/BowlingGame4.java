@@ -1,7 +1,6 @@
-
 package bowlinggame;
 
-public class BowlingGame {
+public class BowlingGame4 {
 
    
     public static void main(String[] args) {
@@ -44,7 +43,7 @@ public class BowlingGame {
         return soma;
     }
 
-    public void roll(int i) {  // TODO: verifique se a quantidade 'i' é válida (entre 0 e 10) e, caso não seja, lance uma exceção IllegalArgumentException
+    public void roll(int i) {
         pontos[jogada] = i;
         jogada++;
         
