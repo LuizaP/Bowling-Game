@@ -41,7 +41,7 @@ public class BowlingGame {
         return soma;
     }
 
-    public void roll(int i) {
+    public void roll(int i) {  // TODO: verifique se a quantidade 'i' é válida (entre 0 e 10) e, caso não seja, lance uma exceção IllegalArgumentException
         pontos[jogada] = i;
         jogada++;
         
