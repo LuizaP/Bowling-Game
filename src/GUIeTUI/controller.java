@@ -3,8 +3,9 @@ package GUIeTUI;
 
 import bowlinggame.BowlingGame;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-class controller {
+class controller implements ActionListener{
     
     private BowlingGame bowlingGame;
     private View view;
@@ -16,16 +17,18 @@ class controller {
    
     
 
-    static void actionPerformed(ActionEvent ev) {
+     public void actionPerformed(ActionEvent ev) {
         System.out.println("Controller: recebeu evento e tratará o evento com alteração no modelo");
-	System.out.println("Controller: evento recebido foi " + ev.getActionCommand() + ", com os parâmetros " + ev.paramString());
-	//bowlingGame.roll();
+	//System.out.println("Controller: evento recebido foi " + ev.getActionCommand() + ", com os parâmetros " + ev.paramString());
+         System.out.println(ev.getActionCommand());
+        int c= Integer.valueOf(ev.getActionCommand());
+        bowlingGame.roll(c);
 
     }
     
-     public void addModel(Model m){
+     public void addModel(BowlingGame jogo){
 		System.out.println("Controller: adding model");
-		//this.bowlingGame = m;
+		this.bowlingGame = jogo;
 	}
     public void addView(View v){
 		System.out.println("Controller: adding view");

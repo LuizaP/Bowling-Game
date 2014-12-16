@@ -1,11 +1,11 @@
 
 package bowlinggame;
 
-public class BowlingGame {
+import java.util.Observable;
+
+public class BowlingGame extends Observable{
 
    
-    public static void main(String[] args) {
-    }
     
     private int jogada = 0;
     private int pontos[] = new int[21];
@@ -46,9 +46,17 @@ public class BowlingGame {
 
     public void roll(int i) {  // TODO: verifique se a quantidade 'i' é válida (entre 0 e 10) e, caso não seja, lance uma exceção IllegalArgumentException
         pontos[jogada] = i;
-        jogada++;
-        
-                
+        if (i>10) {
+            System.out.println("Você não pode derrubar mais de 10 pinos");
+        }else if (i<0) {
+            System.out.println("Não existe a possibilidade de derrubar menos de zero pinos");
+        }else{
+            jogada++;
+            this.setChanged();
+            this.notifyObservers();
+        }
+       
+                        
     }
     
 }

@@ -10,10 +10,12 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Observable;
+import java.util.Observer;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-public class GUI extends JFrame{
+public class GUI extends JFrame implements Observer{
     private Button botao = new Button("Jogar");
     Panel pn1 = new Panel();
     Panel pn2 = new Panel();
@@ -103,6 +105,11 @@ public class GUI extends JFrame{
         setVisible(true);
        
 
+        
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
         
     }
     

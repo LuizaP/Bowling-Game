@@ -2,6 +2,9 @@
 
 package GUIeTUI;
 
+import bowlinggame.BowlingGame;
+import java.io.IOException;
+
 
 public class Main {
     
@@ -12,16 +15,17 @@ public class Main {
         
         View myView = new TUI();
         
-        Model myModel 	= new Model();
+        BowlingGame jogo = new BowlingGame();
         
-	myModel.addObserver(myView);
+	jogo.addObserver(myView);
+	jogo.addObserver(gui);
         
         controller myController = new controller();
-	myController.addModel(myModel);
+	myController.addModel(jogo);
 	myController.addView(myView);
 	myController.initModel(start_value);
 	 
-	//myView.addController(myController);
+	myView.addController(myController);
         myView.start();
     }
     
